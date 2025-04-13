@@ -1,26 +1,23 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app testing reload!</Text>
-      <Text>and testing again</Text>
-
-      <Text style={styles.greeting}>finally up and running Rika!</Text>
-      <StatusBar style="auto" />
+      <Text style={styles.title}>What’s for dinner?</Text>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "#fff",
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: "center",
   },
-  greeting: {
-    fontSize: 40
-  }
+  title: {
+    fontFamily: "Shrikhand-Regular",
+    fontSize: 25,
+    letterSpacing: 0.25,
+  },
 });
