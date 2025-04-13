@@ -29,7 +29,10 @@
       [
         "expo-font",
         {
-          "fonts": ["./assets/fonts/Shrikhand-Regular.ttf"]
+          "fonts": [
+            "./assets/fonts/Shrikhand-Regular.ttf",
+            ".assets/fonts/Fasthand-Regular.ttf"
+          ]
         }
       ]
     ]
