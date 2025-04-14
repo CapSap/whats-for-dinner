@@ -8,7 +8,7 @@ export default function App() {
       <View style={styles.line} />
       <Text style={styles.subtitle}>The Munchmaker</Text>
       <Text style={styles.subtitle2}>The Munchmaker</Text>
-      <Text style={{ fontFamily: "Fasthand-Regular", fontSize: 30 }}>
+      <Text style={{ fontFamily: "Pacifico-Regular", fontSize: 30 }}>
         The Munchmaker
       </Text>
       <View>
