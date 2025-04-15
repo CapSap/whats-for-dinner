@@ -7,11 +7,7 @@ export default function App() {
       <Text style={styles.title}>What’s for dinner?</Text>
       <View style={styles.line} />
       <Text style={styles.subtitle}>The Munchmaker</Text>
-      <Text style={styles.subtitle2}>The Munchmaker</Text>
-      <Text style={{ fontFamily: "Pacifico-Regular", fontSize: 30 }}>
-        The Munchmaker
-      </Text>
-      <View>
+            <View>
         <View style={styles.cardImageContainer}>
           <Image
             style={styles.cardImage}
