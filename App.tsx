@@ -41,11 +41,6 @@ const styles = StyleSheet.create({
     color: "#39584D",
     fontSize: 30,
   },
-
-  subtitle2: {
-    color: "#39584D",
-    fontSize: 30,
-  },
   line: {
     borderBottomWidth: 1,
     borderBottomColor: "#50AABC80",
