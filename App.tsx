@@ -6,7 +6,7 @@ export default function App() {
       <Text style={styles.title}>What’s for dinner?</Text>
       <View style={styles.line} />
       <Text style={styles.subtitle}>The Munchmaker</Text>
-            <View>
+      <View>
         <View style={styles.cardImageContainer}>
           <Image
             style={styles.cardImage}
@@ -60,6 +60,13 @@ const styles = StyleSheet.create({
     width: 252,
     borderRadius: 30,
   },
-  cardTextContainer: { backgroundColor: "#E4E2E2", width: 300, height: 150 },
+  cardTextContainer: {
+    backgroundColor: "#E4E2E2",
+    width: 300,
+    height: 150,
+    alignItems: "center",
+    borderBottomStartRadius: 30,
+    borderBottomEndRadius: 30,
+  },
   cardTitle: { fontWeight: "500", fontSize: 30 },
 });
